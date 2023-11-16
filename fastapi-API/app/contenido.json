@@ -1,0 +1,145 @@
+{
+    "contenido": [
+        {
+            "tag": "saludo",
+            "patrones": ["Hola", "Buenos días", "Hola, chatbot"],
+            "respuestas": ["¡Hola! Soy tu Nick tu agente virtual estoy aqui para apoyarte con tus problemas de salud, cuales son tus sintomas mas generales?"]
+        },
+        {
+            "tag": "Ayuda_del_chat",
+            "patrones": ["Nick lo que pasa es que ultimamente he tenido problemas muculares","lo que pasa es que ultimamente he tenido problemas muculares","fatiga en mis musculos", "Que puede ser", "problemas musculares", "Que me recomiendas", "No se que pueda ser", "tengo dolores y problemas musculares"],
+            "respuestas": ["Comprendo que experimentas síntomas musculares. Por favor, proporciona más detalles sobre tus síntomas para que ver si te puedo dar un posible diagnostico."]
+        },
+        {
+            "tag": "distrofia_muscular",
+            "patrones": ["Dolor en la vejiga","Debilidad muscular", "Atrofia muscular", "Dificultad para moverme", "Dificultad respiratoria","Contracturas musculares", "Fatiga muscular", "tambien tengo calambres musculares", "Problemas cardíacos", "Dolor en la vejiga y el intestino"],
+            "respuestas": ["Gracias por la información adicional. Basado en los síntomas que has mencionado, podría tratarse de Distrofia Muscular, esta es una enfermedad muscular bastante comun que tiene los sintomas que has presentado, sin embargo ten presente que esto solo es un diagnostico inicial recuerda que lo más importante es consultar con un profesional de la salud."]
+        },
+        {
+            "tag": "que_es_la_distrofia_muscular",
+            "patrones": ["Que es la distrofia muscular?"],
+            "respuestas": ["La distrofia muscular es un grupo de trastornos musculares hereditarios y progresivos que afectan los músculos del cuerpo. Estos trastornos se caracterizan por la degeneración y debilidad muscular gradual a lo largo del tiempo. La distrofia muscular es causada por anomalías genéticas que afectan la producción de proteínas necesarias para el funcionamiento adecuado de las fibras musculares."]
+        },
+        {
+            "tag": "como_tratar_la_distrofia_muscular",
+            "patrones": ["como puedo tratar la distrofia muscular?"],
+            "respuestas": [
+                "El tratamiento de la distrofia muscular se centra en aliviar los síntomas, mejorar la calidad de vida y retrasar la progresión de la enfermedad. Es importante destacar que no existe una cura definitiva para la distrofia muscular, ya que se trata de una enfermedad genética, pero existen enfoques terapéuticos que pueden ayudar a las personas afectadas. El tratamiento de la distrofia muscular generalmente involucra un enfoque multidisciplinario y puede incluir: Terapia física y ocupacional, Cirugía ortopédica, Dispositivos de asistencia como también Apoyo emocional y psicológico"
+            ]
+        },
+
+        {
+            "tag": "dermatomiositis",
+            "patrones": ["Erupciones cutaneas", "Erupciones en la piel","Debilidad muscular", "Atrofia muscular", "Dificultad para moverse", "Dificultad respiratoria","Contracturas musculares", "Fatiga muscular", "tambien tengo calambres musculares", "Problemas cardíacos", "Dolor en la vejiga y el intestino"],
+            "respuestas": ["Gracias por la información adicional. Basado en los síntomas que has mencionado, podría tratarse de una dermatomiositis, esta es una enfermedad muscular bastante comun que tiene los sintomas que has presentado, sin embargo ten presente que esto solo es un diagnostico inicial recuerda que lo más importante es consultar con un profesional de la salud."]
+        },
+        {
+            "tag": "que_es_la_dermatomiositis",
+            "patrones": ["Que es la dermatomiositis?"],
+            "respuestas": ["La dermatomiositis es una enfermedad inflamatoria que afecta los músculos y la piel. Se clasifica como una miopatía inflamatoria, lo que significa que implica una inflamación crónica de los músculos. A menudo se la considera una enfermedad autoinmune, lo que significa que el sistema inmunológico del cuerpo ataca sus propios tejidos."]
+        },
+        {
+            "tag": "como_tratar_la_dermatomiositis",
+            "patrones": ["como puedo tratar la dermatomiositis?"],
+            "respuestas": [
+                "El tratamiento de la dermatomiositis generalmente se lleva a cabo bajo la supervisión de un reumatólogo o un neurólogo especializado en enfermedades musculares. Dado que es una enfermedad autoinmune que implica inflamación muscular y cutánea, el enfoque del tratamiento suele incluir una combinación de medicamentos y terapias. Medicamentos como (Corticosteroides, Inmunosupresores), Fisioterapia y terapia ocupacional, Rehabilitación pulmonar"
+            ]
+        },
+
+        {
+            "tag": "Distonía",
+            "patrones": ["Contracciones musculares involuntarias", "Dolor al hacer movimientos repetitivos.", "Dolor y fatiga muscular", "Dificultad para moverse", "Dificultad respiratoria","Contracturas musculares", "Fatiga muscular"],
+            "respuestas": ["Gracias por la información adicional. Basado en los síntomas que has mencionado, podría tratarse de una Distonía, esta es una enfermedad muscular bastante comun que tiene los sintomas que has presentado, sin embargo ten presente que esto solo es un diagnostico inicial recuerda que lo más importante es consultar con un profesional de la salud."]
+        },
+        {
+            "tag": "que_es_la_distonía",
+            "patrones": ["Que es la distonía?"],
+            "respuestas": ["La distonía es un trastorno neuromuscular que se caracteriza por contracciones musculares involuntarias que provocan movimientos anormales y posturas inusuales en el cuerpo. Estos movimientos anormales pueden ser sostenidos o intermitentes y afectar una parte del cuerpo, un grupo de músculos o incluso todo el cuerpo. La distonía puede ser dolorosa y discapacitante, y la gravedad de los síntomas puede variar desde leves hasta severos."]
+        },
+        {
+            "tag": "como_tratar_la_distonía",
+            "patrones": ["como puedo tratar la distonía?"],
+            "respuestas": [
+                "El tratamiento de la distonía varía según la gravedad de la afección, la ubicación de los síntomas y la respuesta individual al tratamiento. Es importante consultar a un neurólogo o un especialista en trastornos del movimiento para recibir un diagnóstico preciso y un plan de tratamiento personalizado. A continuación, se describen algunas opciones comunes de tratamiento para la distonía. Toxina botulínica (Botox), Medicamentos, Fisioterapia y terapia, Estimulación cerebral profunda (DBS), Cirugía de ablación"
+            ]
+        },
+
+        {
+            "tag": "miastenia_gravis",
+            "patrones": ["Dificultad para hablar y tragar", "Visión doble o borrosa", "Cansancio en los ojos", "Debilidad o dolor en el cuello y la cabeza","Debilidad o fatiga para respirar", "Fatiga muscular", "Cambios en la expresión facial"],
+            "respuestas": ["Gracias por la información adicional. Basado en los síntomas que has mencionado, podría tratarse de Miastenia Gravis. sin embargo ten presente que esto solo es un diagnostico inicial recuerda que lo más importante es consultar con un profesional de la salud."]
+        },
+
+        {
+            "tag": "que_es_la_miastenia_gravis",
+            "patrones": ["Que es la miastenia gravis?"],
+            "respuestas": ["La miastenia gravis es una enfermedad neuromuscular crónica autoinmune que provoca debilidad muscular y fatiga. En esta enfermedad, el sistema inmunológico ataca los receptores de acetilcolina en la unión neuromuscular, lo que dificulta la comunicación entre los nervios y los músculos. Esto provoca una debilidad muscular que empeora con la actividad y mejora con el reposo."]
+        },
+        {
+            "tag": "como_tratar_la_miastenia_gravis",
+            "patrones": ["como puedo tratar la miastenia galvis?"],
+            "respuestas": [
+                "El tratamiento de la miastenia gravis se enfoca en aliviar los síntomas y mejorar la calidad de vida de los pacientes, ya que esta enfermedad no tiene una cura definitiva. El tratamiento puede variar según la gravedad de la enfermedad y los síntomas específicos de cada paciente. Aquí hay algunas opciones de tratamiento y enfoques comunes, (Terapia de rehabilitación, Medicamentos, Cirugía)"
+            ]
+        },
+
+        {
+            "tag": "polimiositis",
+            "patrones": ["Fiebre continua", "Pérdida de peso","Dificultad para tragar", "Debilidad muscular", "Disfagia", "Dificultad para respirar"],
+            "respuestas": ["Gracias por la información adicional. Basado en los síntomas que has mencionado, podría tratarse de Polimiositis, sin embargo ten presente que esto solo es un diagnostico inicial recuerda que lo más importante es consultar con un profesional de la salud."]
+        },
+
+        {
+            "tag": "que_es_la_polimiositis",
+            "patrones": ["que es la miastenia polimiositis?"],
+            "respuestas": ["La polimiositis es una enfermedad autoinmune y inflamatoria que afecta los músculos esqueléticos, los cuales son los músculos que controlan el movimiento del cuerpo. Esta afección se caracteriza por la inflamación y debilidad muscular progresiva. La causa exacta de la polimiositis no se comprende completamente, pero se cree que involucra una respuesta autoinmune en la que el sistema inmunológico del cuerpo ataca por error los propios tejidos musculares."]
+        },
+        {
+            "tag": "como_tratar_la_polimiositis",
+            "patrones": ["como puedo tratar la polimiositis?"],
+            "respuestas": [
+                "El tratamiento de la polimiositis se enfoca en reducir la inflamación muscular y controlar los síntomas para mejorar la calidad de vida del paciente. Aunque no existe una cura definitiva para la polimiositis, el manejo adecuado puede ayudar a mantener la enfermedad bajo control. Aquí hay algunas opciones de tratamiento y enfoques comunes, (Fisioterapia y terapia, Descanso y gestión del estrés, Dieta saludable, Cirugía)"
+            ]
+        },
+
+
+        {
+            "tag": "Miopatia",
+            "patrones": ["Mucha sensibilidad muscular", "Debilidad muscular", "Inflamacion muscular", "Inflamación"],
+            "respuestas": ["Gracias por la información adicional. Basado en los síntomas que has mencionado, podría tratarse de Miopatía inflamatoria, sin embargo ten presente que esto solo es un diagnostico inicial recuerda que lo más importante es consultar con un profesional de la salud."]
+        },
+
+        {
+            "tag": "que_es_la_miopatia",
+            "patrones": ["que es la miastenia Miopatía?"],
+            "respuestas": ["La miopatía inflamatoria es un término que se utiliza para describir un grupo de enfermedades musculares que involucran la inflamación de los músculos esqueléticos. Estas afecciones afectan los músculos y pueden dar lugar a debilidad muscular, dolor, fatiga y, en algunos casos, discapacidad. La causa exacta de las miopatías inflamatorias no siempre es clara, pero se cree que implican una respuesta anormal del sistema inmunológico, que ataca y daña los músculos."]
+        },
+        {
+            "tag": "como_tratar_la_miopatia",
+            "patrones": ["como puedo tratar la miopatia?"],
+            "respuestas": [
+                "El tratamiento de la miopatía inflamatoria suele requerir la supervisión y el seguimiento de un reumatólogo o un neurólogo especializado en enfermedades musculares. El enfoque del tratamiento puede variar según la gravedad de la afección y la respuesta individual al tratamiento. Aquí te presento algunas opciones de tratamiento comunes para la miopatía inflamatoria. Medicamentos inmunosupresores, Plasmaféresis, Inmunoglobulina intravenosa (IVIG), Terapia física y ocupacional"]
+        },
+
+
+        {
+            "tag": "recomendaciones_musculares",
+            "patrones": ["Que me recomiendas entonces hacer", "Que debo hacer entonces", "Que me recomiendas hacer"],
+            "respuestas": ["Es importante que consultes a un médico o especialista en enfermedades musculares para un diagnóstico preciso. Mientras tanto, descansar, mantener una dieta equilibrada y evitar el ejercicio excesivo puede ayudarte a aliviar los síntomas."]
+        },
+        {
+            "tag": "despedida",
+            "patrones": ["Adiós", "Hasta luego", "Gracias por tu ayuda", "Gracias"],
+            "respuestas": ["Espero que te haya sido útil. No dudes en volver si tienes más preguntas. ¡Cuídate!"]
+        },
+        {
+            "tag": "expresiones",
+            "patrones": ["Claro que si", "ok", "mira estos son mis sintomas"]
+        },
+        {
+            "tag": "default",
+            "patrones": [],
+            "respuestas": ["Lo siento, no entiendo tu pregunta. ¡Puedes proporcionar más detalles o reformular tu pregunta o repuesta!"]
+        }
+    ]
+}

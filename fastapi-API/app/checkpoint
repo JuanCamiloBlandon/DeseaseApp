@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\User\\Documents\\Proyectos desarrollo\\AgenteInteligente\\DiseaseApp\\fastapi-API\\app\\modelo.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\User\\Documents\\Proyectos desarrollo\\AgenteInteligente\\DiseaseApp\\fastapi-API\\app\\modelo.tflearn"
